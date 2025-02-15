@@ -1,8 +1,15 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main (){
-    int a = 10;
-    printf("pointer=%p",&a);
-    return 0;
+    int i = 0 ;
+    
+    do{
+        /* code */
+        printf("%d\n",i);
+        i++;
+    } 
+    while (i < 50);
 
+        return 0;
 }
